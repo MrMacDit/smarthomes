@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Homes</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5e3066eb69.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="smarthomesHomePage.css" />
+  </head>
+  <body>
+
+    <!-- --------------PreNavs-------------- -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1">
+          <a href="smarthomesHomePage.html" class="navbar-brand">
+            <img src="images/nav/nav.png" alt="navBrand" />
+          </a>
+        </div>
+    
+        <!-- Form -->
+        <div class="col-md-6">
+          <form>
+            <div class="input-group mb-3">
+              <select>
+                <option value="All Categories">All Categories</option>
+                <option value="Gate Motor">Gate Motor</option>
+                <option value="Gate Opener">Gate Opener</option>
+                <option value="remote control gate">remote control gate</option>
+                <option value="Solar Panel">Solar Panel</option>
+                <option value="Solar Power System">Solar Power System</option>
+                <option value="Uncategorized">Uncategorized</option>
+              </select>
+    
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="basic-addon2"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-outline-danger" type="button">Search</button>
+              </div>
+            </div>
+          </form>
+        </div>
+    
+        <!-- Create Store -->
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Create Store</p>
+            </div>
+          </div>
+          <!-- beneath -->
+          <div class="row">
+            <div class="col-md-1">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+    
+            <div class="col-md-1">
+              <a href="#">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </div>
+    
+            <div class="col-md-1">
+              <a href="#">
+                <i class="fab fa-instagram-square"></i>
+              </a>
+            </div>
+    
+            <div class="col-md-1">
+              <a href="#">
+                <i class="fab fa-whatsapp-square"></i>
+              </a>
+            </div>
+    
+            <div class="col-md-1">
+              <a href="#">
+                <i class="fab fa-youtube-square"></i>
+              </a>
+            </div>
+    
+            <div class="col-md-1">
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Account -->
+        <div class="col-md-2">
+          <a href="#">
+            <i class="fas fa-user"></i>
+          </a>
+    
+          <a href="#">
+            <i class="fas fa-balance-scale"></i>
+          </a>
+    
+          <a href="#">
+            <i class="fas fa-shopping-basket"></i>
+          </a>
+    
+          <p>#0.00</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ----------------NavBar-------------------- -->
+  <nav class="navbar navbar-expand-md jumbos">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#smartsHOmes"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="smartsHOmes">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">All Categories</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">GATE Motors</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Security Gadget</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Solar Power System</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">COMPUTER & ACCESSORIES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              >AGRICULTURE & OTHER CATEGORIES</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a href="#" class="dropdown-item">SERVICES</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">BLOG</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+
+    <!-------------------------- Carousel -------------------------------------->
+    <div class="container padding">
+      <div class="carousel slide" id="letSlide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#letSlide" data-slide-to="0"></li>
+          <li data-target="#letSlide" data-slide-to="1"></li>
+          <li data-target="#letSlide" data-slide-to="2"></li>
+          <li data-target="#letSlide" data-slide-to="3"></li>
+        </ul>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="img-fluid"
+              src="images/carousel/001.jpg"
+              alt="Products from Italy"
+            />
+            <div class="carousel-caption">
+              <h1 class="display-3">
+                Discover The Best Products Made In Italy
+              </h1>
+              <p class="display-4">Order today at a discounted rate</p>
+              <button class="btn btn-outline-danger" type="button">CLICK ME</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="img-fluid"
+              src="images/carousel/002.jpg"
+              alt="Automated Gates"
+            />
+            <div class="carousel-caption">
+              <h1 class="display-3">
+                Get The Best Automatic Gate Motors With a 2 Year Warranty
+              </h1>
+              <p class="display-4">Travel with us today at a discounted rate</p>
+              <button class="btn btn-outline-danger" type="button">CLICK ME</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="img-fluid"
+              src="images/carousel/003.jpg"
+              alt="Sliding Gate Mmotor"
+            />
+            <div class="carousel-caption">
+              <h1 class="display-3">
+                Best Sliding Gate Motors Most Amazing Deals
+              </h1>
+              <p class="display-4">Travel with us today at a discounted rate</p>
+              <button class="btn btn-outline-danger" type="button">CLICK ME</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="img-fluid"
+              src="images/carousel/004.jpg"
+              alt="Products from Italy"
+            />
+            <div class="carousel-caption">
+              <h1 class="display-3">Live Your Life With Full Security</h1>
+              <p class="display-4">Travel with us today at a discounted rate</p>
+              <button class="btn btn-outline-danger" type="button">CLICK ME</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------- LATEST DEALS ---------------------->
+
+    <div class="container padding">
+            <h3 class="deals">LATEST DEALS</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/Latest Deal/001.jpg" alt="Solar Prestige Ducati" class="card-img-top">
+                    <div class="card-body">
+                        <p>GATE MOTORS</p>
+                        <h4 class="card-title">Swing Gate Opener-Ducati| HC812-600</h4>
+                        <hr>
+                        <p class="card-text">
+                            <p class="indent">#540,000.00</p>
+                            <p>#509,999.00</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/Latest Deal/002.jpeg" alt="Solar Sliding Gate" class="card-img-top">
+                    <div class="card-body">
+                        <p>GATE MOTORS</p>
+                        <h4 class="card-title">Solar Sliding Gate Motor-400KG</h4>
+                        <hr>
+                        <p class="card-text">
+                            <p class="indent">#330,000.00</p>
+                            <p>#319,999.00</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/Latest Deal/003.jpg" alt="Solar Flood Light" class="card-img-top">
+                    <div class="card-body">
+                        <p>SOLAR POWER SYSTEM</p>
+                        <h4 class="card-title">Solar Flood Light(LUMINOUS FLOOD LIGHT)</h4>
+                        <hr>
+                        <p class="card-text">
+                            <p class="indent">#30,000.00</p>
+                            <p>#19,000.00</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!----------------RECOMMENDED PRODUCTS  ----------------------->
+    <div class="container padding">
+        <h3 class="deals">RECOMMENDED PRODUCTS</h3>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/Recommended Products/001boom-barriers.jpg" alt="Boom Barrier" class="card-img-top">
+                <div class="card-body">
+                    <p>GATE MOTORS</p>
+                    <h4 class="card-title">Ducati Broom Barrier</h4>
+                    <hr>
+                    <p class="card-text">
+                        <p class="indent">#1,950,000.00</p>
+                        <p>#1,750,000.00</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/Recommended Products/002gate-opener-843-in-lagos-350x350.jpg" alt="Gate Opener" class="card-img-top">
+                <div class="card-body">
+                    <p>SECURITY GADGETS</p>
+                    <h4 class="card-title">Sliding Gate Motor-Ducati slide 1543</h4>
+                    <hr>
+                    <p class="card-text">
+                        <p class="indent">#925,000.00</p>
+                        <p>#719,999.00</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/Recommended Products/003solar-power-system-Copy-350x350.jpg" alt="Solar Power System" class="card-img-top">
+                <div class="card-body">
+                    <p>SOLAR POWER SYSTEM</p>
+                    <h4 class="card-title">Solar Flood Light (Luminous Flood Light)</h4>
+                    <hr>
+                    <p class="card-text">
+                        <p class="indent">#30,000.00</p>
+                        <p>#19,000.00</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------- FOOTER  ---------------------->
+    <footer>
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Got Questions?</h4>
+                    <p>
+                        <a href="smarthomesHomePage.html">
+                            <img src="images/nav/nav.png" alt="smarthomesHomePage">
+                        </a>
+                        <span>Reach us 9am-5pm Business Days</span>
+                        <span>Phone No: 07033702391,09034860368,07081868941</span><br>
+                        <span>Email: info@smartshome.com.ng</span>
+                    </p>
+
+                    <p>
+                        <h4>Smart Home Office Address</h4>
+                        47b,Abba Johnson Crescent,Akora Estate, Off Adeniyi Jones,Ikeja Lagos
+                    </p>
+
+                    <p>
+                        <h4>Useful Pages</h4>
+                        <ul>
+                            <li>
+                                <a href="#">New Arrivals</a>
+                            </li>
+                            <li>
+                                <a href="#">What’s Popular</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Buy Safely</a>
+                            </li>
+                            <li>
+                                <a href="#">Pickup Points</a>
+                            </li>
+                        </ul>
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <p>
+                        <h4>Get to Know Us</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">What We Do</a>
+                            </li>
+                            <li>
+                                <a href="#">Who We Are</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        <h4>Payment on Smart Home</h4>
+                        Bank Transfer or Bank Deposit | Debit/Credit Card | Pay with Bank
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <p>
+                        <h4>Sign Up for Weekly Newsletter</h4>
+                        Get Latest Update on Ducati Gate Motors and other Security Gadgets
+                    </p>
+
+                    <form>
+                      <div class="input-group mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Search"
+                          aria-label="Search"
+                          aria-describedby="basic-addon2"
+                        />
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-danger" type="button">Search</button>
+                        </div>
+                      </div>
+                    </form>
+
+                    <p>
+                        <h4>Follow us</h4>
+                    </p>
+                    <p>
+                      <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fab fa-twitter-square"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fab fa-instagram-square"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fab fa-whatsapp-square"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fab fa-youtube-square"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div>
+        <div class="container-fluid blue">
+            <div class="row">
+              <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <p>© 2022 Smarts Home. | Developed By Bluescripts IT Institute</p>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-3">
+                    <p>Smarts Home | Gate Motor | Swing Gate Motor | Sliding Gate Motor| Slider |</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
